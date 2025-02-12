@@ -1,0 +1,36 @@
+/*-Declaracion de Variables-*/
+
+:root {
+    --primary: #121826;
+    --secondary: #E5E7EB;
+    --terciary: #212936;
+    --cuaternary: #845EEE;
+    --quinary: #5425AF;
+    --senary: #845EEE4D;
+    --septenary: #A1A1A9;
+    --octonaryA: #394150;
+    --octanaryB: #111827;
+
+}
+
+body {
+    background-color: var(--primary);
+    background-repeat: no-repeat;
+    background-image: url("/img/blur-radial.png");
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.containerOne {
+    background-color: var(--terciary);
+    width: 250px;
+    height: 250px;
+}
+
+.botton-Register {
+    color: var(--secondary);
+    background-color: var(--cuaternary);
+    border: none;
+}
