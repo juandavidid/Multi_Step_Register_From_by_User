@@ -14,23 +14,90 @@
 }
 
 body {
+
+
     background-color: var(--primary);
     background-repeat: no-repeat;
     background-image: url("/img/blur-radial.png");
+    background-position: 325px 29px;
+    background-size: 328px;
     display: flex;
     justify-content: center;
-
 
 }
 
 .containerOne {
     background-color: var(--terciary);
-    width: 250px;
-    height: 250px;
+    width: 430px;
+    height: 311px;
+    margin-top: 126px;
+    border-radius: 8px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-top-left-radius: 10px;
+    /* Para darle un efecto más suave */
+
+
+
+}
+
+.containerTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 31px;
+    margin-left: 41px;
 }
 
 .botton-Register {
     color: var(--secondary);
     background-color: var(--cuaternary);
     border: none;
+}
+
+legend {
+    color: var(--secondary);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+label {
+    color: var(--secondary);
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+
+.label-Email {
+    margin-top: 24px;
+}
+
+input {
+    width: 350px;
+    height: 38px;
+    background-color: var(--terciary);
+    border: 1.5px solid var(--octonaryA);
+    border-radius: 9px;
+}
+
+input::placeholder {
+    color: var(--secondary);
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    padding-left: 8px;
+}
+
+.botton-Register {
+    font-size: 10px;
+    margin: 17px 1px 1px 130px;
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+}
+
+.container-Btn {
+    width: 350px;
+    height: 50px;
+
 }
