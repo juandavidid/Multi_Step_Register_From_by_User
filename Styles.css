@@ -22,31 +22,36 @@ body {
     background-position: 325px 29px;
     background-size: 328px;
     display: flex;
-    justify-content: center;
+    padding-left: 424px;
+    flex-direction: column;
 
 }
 
 .containerOne {
-    background-color: var(--terciary);
-    width: 430px;
-    height: 311px;
+    background: linear-gradient(to bottom, var(--septenary), transparent 55%);
+    width: 395px;
+    height: 306px;
     margin-top: 126px;
-    border-radius: 8px;
-    border-top: 1px solid white;
-    border-left: 1px solid white;
-    border-top-left-radius: 10px;
+    position: relative;
+    border-top-right-radius: 261px;
+    border-bottom-left-radius: 17px;
+    border-top-left-radius: 12px;
     /* Para darle un efecto más suave */
-
-
-
 }
 
 .containerTwo {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    margin-top: 31px;
-    margin-left: 41px;
+    margin-top: 0.8px;
+    margin-left: 0.8px;
+    background-color: var(--terciary);
+    position: absolute;
+    width: 384px;
+    height: 310px;
+    padding-top: 25px;
+    padding-left: 24px;
+    border-radius: 12px;
 }
 
 .botton-Register {
@@ -99,5 +104,32 @@ input::placeholder {
 .container-Btn {
     width: 350px;
     height: 50px;
+}
 
+.textSlider {
+    width: 150px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+.text {
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    color: var(--septenary);
+}
+
+/*--Icono--*/
+i {
+    color: #5425AF;
+    font-size: 9px;
+    margin-left: 6px;
+}
+
+.shadow {
+    background: gray;
+    width: 8%;
+    height: 50%;
+    border-radius: 100%;
+    opacity: 0.9;
 }
