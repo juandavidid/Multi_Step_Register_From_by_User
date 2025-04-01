@@ -27,6 +27,7 @@ body {
 
 }
 
+/*--Estilo Campos Formulario--*/
 .containerOne {
     background: linear-gradient(to bottom, var(--septenary), transparent 55%);
     width: 395px;
@@ -47,10 +48,10 @@ body {
     margin-left: 0.8px;
     background-color: var(--terciary);
     position: absolute;
-    width: 384px;
-    height: 310px;
-    padding-top: 25px;
-    padding-left: 24px;
+    width: 448px;
+    height: 329px;
+    padding-top: 42px;
+    padding-left: 39px;
     border-radius: 12px;
 }
 
@@ -63,14 +64,14 @@ body {
 legend {
     color: var(--secondary);
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size: 21px;
 }
 
 label {
     color: var(--secondary);
     display: block;
     font-family: 'Inter', sans-serif;
-    font-size: 10px;
+    font-size: 11px;
     margin-bottom: 8px;
 }
 
@@ -79,8 +80,8 @@ label {
 }
 
 input {
-    width: 350px;
-    height: 38px;
+    width: 394px;
+    height: 43px;
     background-color: var(--terciary);
     border: 1.5px solid var(--octonaryA);
     border-radius: 9px;
@@ -89,16 +90,18 @@ input {
 input::placeholder {
     color: var(--secondary);
     font-family: 'Inter', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     padding-left: 8px;
 }
 
+/*--Estilo Boton--*/
+
 .botton-Register {
-    font-size: 10px;
-    margin: 17px 1px 1px 130px;
-    width: 100px;
-    height: 30px;
-    border-radius: 16px;
+    font-size: 12px;
+    margin: 40px 1px 1px 149px;
+    width: 114px;
+    height: 35px;
+    border-radius: 23px;
 }
 
 .container-Btn {
@@ -106,30 +109,47 @@ input::placeholder {
     height: 50px;
 }
 
+
+/*--ESTILOS SLIDER  --*/
+
 .textSlider {
-    width: 150px;
+    width: 250px;
     height: 70px;
-    margin-top: 40px;
-    margin-left: 140px;
+    margin-top: 71px;
+    margin-left: 161px;
+    display: flex;
 }
 
 .text {
     font-size: 11px;
     font-family: 'Inter', sans-serif;
     color: var(--septenary);
+    width: 68px;
+    padding-top: 13px;
 }
 
 /*--Icono--*/
 i {
-    color: #5425AF;
+    color: var(--octonaryA);
     font-size: 9px;
     margin-left: 6px;
 }
 
 .shadow {
-    background: gray;
+    background: radial-gradient(circle, #5425AF 34%, var(--senary) 10%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+
+.shadow-icon {
     width: 8%;
-    height: 50%;
+    height: 30%;
     border-radius: 100%;
     opacity: 0.9;
+    margin-top: 8px;
+    margin-left: 6px;
 }
