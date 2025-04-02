@@ -94,6 +94,31 @@ input::placeholder {
     padding-left: 8px;
 }
 
+/*-- Estilo pagina index2----------------------------------------------------*/
+
+.inputsPageTwo {
+    height: 40px;
+    background-color: var(--octonaryA);
+    border: 1.5px solid #4f4f5a;
+    border-radius: 13px;
+    margin-bottom: 16px;
+
+}
+
+.inputsPageTwo::placeholder {
+    padding-left: 13px;
+    font-size: 12px;
+
+}
+
+.inputsPageTwo:hover {
+    background-color: var(--quinary);
+    border: 1.5px solid var(--cuaternary);
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------------------*/
+
 /*--Estilo Boton--*/
 
 .botton-Register {
